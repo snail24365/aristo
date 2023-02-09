@@ -5,7 +5,7 @@ import Main from './pages/Main';
 
 function App() {
   return (
-    <div>
+    <div css={{ minWidth: 380, maxWidth: 1400, margin: '0 auto' }}>
       <Main></Main>
     </div>
   );

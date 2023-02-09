@@ -7,7 +7,10 @@ export default function Header() {
         color: 'darkorchid',
         backgroundColor: 'lightgray',
       }}>
-      This is darkorchid.
+      <ul css={{ display: 'flex', justifyContent: 'center', padding: '1rem', gap: '1rem' }}>
+        <li>Q&A</li>
+        <li>자유게시판</li>
+      </ul>
     </div>
   );
 }

@@ -5,7 +5,10 @@ export default function Main() {
   return (
     <div>
       <Header></Header>
-      <div> main</div>
+      <div>
+        <textarea>description for mathematics</textarea>
+        <div css={{ backgroundColor: '#bbbbbb', width: 250, height: 250 }}>description에 대한 사진</div>
+      </div>
     </div>
   );
 }
